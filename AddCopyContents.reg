@@ -1,4 +1,4 @@
-  Windows Registry Editor Version 5.00
+Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Folder\shell\CopyContents]
 @="Copy Contents"
@@ -6,4 +6,4 @@
 "Position"="Bottom"
 
 [HKEY_CLASSES_ROOT\Folder\shell\CopyContents\command]
-@="powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -WindowStyle Hidden -Command \"& 'C:\\Users\\D1ver\\Desktop\\MyScripts\\CopyContents.ps1' '%1'\""
+@="powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -WindowStyle Hidden -Command \"& 'C:\\YOUR\\PATH\\TO\\CopyContents.ps1' '%1'\""
